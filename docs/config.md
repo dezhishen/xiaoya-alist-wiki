@@ -19,7 +19,7 @@ bash -c "$(curl --insecure -fsSL https://ddsrem.com/xiaoya_config.sh)"
 |1|是否使用扫码自动获取 115 Cookie [Y/n]|-|y|
 |2|请选择扫码绑定的设备（默认 1）|建议选择不常用的设备，推荐1、alipaymini|1|
 |3|请选择扫码模式|请按回车后，打开日志中输出的地址|2|
-### 1.7. 使用对应方式扫码获取115 Cookie
-- 如果选择`设备 1`，请使用支付宝扫码
+### 1.7. 使用115APP扫码获取115 Cookie
+- 和选择的设备无关，但建议使用不常用的设备扫码。
 ### 1.8. 完成后，输入8重启xiaoya-alist服务使配置生效
 ![](img/config-115-003.png)
